@@ -1,0 +1,8 @@
+{
+    "scanFolder" : "../journey/",
+	"destFolder" : "../journals/",
+	"assetsFolder" : "../assets/",
+	"fileNameFormat" : "2006_01_02",
+	"isLogseq" : true,
+	"splitSameDayNotes" : false
+}

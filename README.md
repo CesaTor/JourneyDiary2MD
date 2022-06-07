@@ -30,7 +30,8 @@ TODO
 - [x] parse weather
 - [x] parse location
 - [x] html2md
-- [ ] add inline parameters to choose folders
+- [x] parse assets
+- [x] merge same-day notes in a single file
+- [x] add configuration parameters to choose folders
 - [ ] add error handling
-- [ ] merge same-day notes in a single file
 - [ ] find out what the unused keys do
