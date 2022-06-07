@@ -1,5 +1,9 @@
 package main
 
+import (
+	"time"
+)
+
 type Journal struct {
 	Text            string  `json:"text"`
 	DateModified    int64   `json:"date_modified"` // not_used
@@ -24,6 +28,10 @@ type Journal struct {
 
 	Photos []string `json:"photos"`
 	Tags   []string `json:"tags"`
+
+	// config data
+	isLogseq bool
+	date     time.Time
 }
 
 type Weather struct {
